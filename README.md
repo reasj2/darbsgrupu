@@ -1,11 +1,17 @@
+![alt text](image-1.png)
+
 ***Description***
 The Study Timer is a simple web application designed to help you manage your study sessions effectively using the Pomodoro Technique.
 
 ***Features***
 **Pomodoro Timer:** Set work sessions (default 25 minutes) followed by short breaks (default 5 minutes).
+
 **Start, Pause, Reset:** Control buttons to manage the timer.
+
 **Customizable Settings:** Adjust session and break durations as needed.
+
 **Aesthetic Design:** Minimalistic and responsive design for a distraction-free study environment.
+
 **Embedded Spotify Playlist:** Enjoy background lo-fi music during study sessions.
 
 
