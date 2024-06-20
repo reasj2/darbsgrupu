@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="lv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darba Taimeris</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Aesthetic Study Timer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Darba Taimeris</h1>
-        <div class="input-container">
-            <input type="number" id="hours" placeholder="Stundas" min="0">
-            <input type="number" id="minutes" placeholder="Minūtes" min="0">
-            <input type="number" id="seconds" placeholder="Sekundes" min="0">
-        </div>
-        <div class="button-container">
-            <button onclick="startTimer()">Sākt</button>
-            <button onclick="stopTimer()">Apturēt</button>
-            <button onclick="resetTimer()">Atiestatīt</button>
-        </div>
-        <div id="timerDisplay">00:00:00</div>
+    <div class="background-image"></div>
+<div class="container">
+    <h1>Study Timer</h1>
+    <div class="timer" id="timer">25:00</div>
+    <div class="controls">
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Stop</button>
+        <button id="reset" class="btn">Reset</button>
     </div>
-    <script src="scripts/main.js"></script>
+
+    <div class="extra-controls">
+        <button id="reload" class="icon-btn"><i class="fas fa-redo-alt"></i></button>
+        <button id="settings" class="icon-btn"><i class="fas fa-cog"></i></button>
+    </div>
+</div>
+
+
+    <div class="spotify-player">
+        <iframe style="border-radius: 12px;" 
+                src="https://open.spotify.com/embed/playlist/3cnkhyqinMpD5O6f6qh5l4?utm_source=generator&theme=0" 
+                width="100%" 
+                height="352" 
+                frameborder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
