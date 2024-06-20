@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darba Taimeris</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Darba Taimeris</h1>
+        <div class="input-container">
+            <input type="number" id="hours" placeholder="Stundas" min="0">
+            <input type="number" id="minutes" placeholder="Minūtes" min="0">
+            <input type="number" id="seconds" placeholder="Sekundes" min="0">
+        </div>
+        <div class="button-container">
+            <button onclick="startTimer()">Sākt</button>
+            <button onclick="stopTimer()">Apturēt</button>
+            <button onclick="resetTimer()">Atiestatīt</button>
+        </div>
+        <div id="timerDisplay">00:00:00</div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
